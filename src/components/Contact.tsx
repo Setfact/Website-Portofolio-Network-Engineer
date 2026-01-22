@@ -22,9 +22,9 @@ const contactInfo = [
     },
     {
         icon: Phone,
-        label: "Phone",
-        value: "+62 857 9288 1853",
-        href: "tel:+6285792881853",
+        label: "WhatsApp",
+        value: "+62 877 7835 0929",
+        href: "https://wa.me/6287778350929",
         color: "blue",
     },
     {
@@ -46,7 +46,7 @@ const socialLinks = [
     {
         icon: Github,
         label: "GitHub",
-        href: "https://github.com/calvinumboh",
+        href: "https://github.com/Setfact",
         color: "#333",
     },
 ];
@@ -95,18 +95,18 @@ export default function Contact() {
                                 >
                                     <div
                                         className={`p-3 rounded-lg ${contact.color === "cyan"
-                                                ? "bg-cyan-500/20"
-                                                : contact.color === "blue"
-                                                    ? "bg-blue-500/20"
-                                                    : "bg-purple-500/20"
+                                            ? "bg-cyan-500/20"
+                                            : contact.color === "blue"
+                                                ? "bg-blue-500/20"
+                                                : "bg-purple-500/20"
                                             }`}
                                     >
                                         <contact.icon
                                             className={`w-5 h-5 ${contact.color === "cyan"
-                                                    ? "text-cyan-400"
-                                                    : contact.color === "blue"
-                                                        ? "text-blue-400"
-                                                        : "text-purple-400"
+                                                ? "text-cyan-400"
+                                                : contact.color === "blue"
+                                                    ? "text-blue-400"
+                                                    : "text-purple-400"
                                                 }`}
                                         />
                                     </div>
